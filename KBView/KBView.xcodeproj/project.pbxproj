@@ -12,6 +12,8 @@
 		A91D868F1DAC7C1A00AF7342 /* KBViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A91D868E1DAC7C1A00AF7342 /* KBViewTests.m */; };
 		A91D86A61DAC7D0800AF7342 /* KBButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A91D86A41DAC7D0800AF7342 /* KBButton.h */; };
 		A91D86A71DAC7D0800AF7342 /* KBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A91D86A51DAC7D0800AF7342 /* KBButton.m */; };
+		A91D86AA1DAC87BE00AF7342 /* KBTestView.h in Headers */ = {isa = PBXBuildFile; fileRef = A91D86A81DAC87BE00AF7342 /* KBTestView.h */; };
+		A91D86AB1DAC87BE00AF7342 /* KBTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A91D86A91DAC87BE00AF7342 /* KBTestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		A91D86901DAC7C1A00AF7342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A91D86A41DAC7D0800AF7342 /* KBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBButton.h; sourceTree = "<group>"; };
 		A91D86A51DAC7D0800AF7342 /* KBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBButton.m; sourceTree = "<group>"; };
+		A91D86A81DAC87BE00AF7342 /* KBTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTestView.h; sourceTree = "<group>"; };
+		A91D86A91DAC87BE00AF7342 /* KBTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				A91D86A31DAC7D0800AF7342 /* KBButton */,
+				A91D86A81DAC87BE00AF7342 /* KBTestView.h */,
+				A91D86A91DAC87BE00AF7342 /* KBTestView.m */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -117,6 +123,7 @@
 			files = (
 				A91D86831DAC7C1A00AF7342 /* KBView.h in Headers */,
 				A91D86A61DAC7D0800AF7342 /* KBButton.h in Headers */,
+				A91D86AA1DAC87BE00AF7342 /* KBTestView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A91D86A71DAC7D0800AF7342 /* KBButton.m in Sources */,
+				A91D86AB1DAC87BE00AF7342 /* KBTestView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
